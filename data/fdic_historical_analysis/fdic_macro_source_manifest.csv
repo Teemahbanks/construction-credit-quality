@@ -1,0 +1,5 @@
+series,url,source_filename,sha256,data_coverage,retrieved_at_utc
+FEDFUNDS,https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS&cosd=2011-01-01&coed=2025-12-31,FRED_FEDFUNDS_2011_2025.csv,6cf07e7be78b026d9aeb4af818fea2cd28048a8b8758ee70ea5faeff824129b6,2011-2025,2026-10-03T16:42:52+00:00
+UNRATE,https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2011-01-01&coed=2025-12-31,FRED_UNRATE_2011_2025.csv,e64843db070f9e37e1be0ae1ebf2fd53f88def6409d2c3fc102d6225eb535fe9,2011-2025,2026-10-03T16:42:54+00:00
+PERMIT,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PERMIT&cosd=2011-01-01&coed=2025-12-31,FRED_PERMIT_2011_2025.csv,b49eed5af281d88d3125b613425335718a6015865a0ea8cee0492c6c6d901449,2011-2025,2026-10-03T16:42:57+00:00
+USSTHPI,https://fred.stlouisfed.org/graph/fredgraph.csv?id=USSTHPI&cosd=2011-01-01&coed=2025-12-31,FRED_USSTHPI_2011_2025.csv,3302181743520c509e6a6498b3af646e57b4fee9b0af3f8ca78f460a12eecf6f,2011-2025,2026-10-03T16:42:59+00:00
