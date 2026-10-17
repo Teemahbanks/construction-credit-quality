@@ -1,0 +1,5 @@
+series,upstream_publisher,units_frequency,url,source_filename,sha256,retrieved_at_utc
+FEDFUNDS,"Board of Governors, H.15","monthly percent, not SA",https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS&cosd=2020-01-01&coed=2025-12-31,FEDFUNDS_2020_2025.csv,1029dda04052adb0a903a81e4603459c5854d9ad1511652281a1224b7bed5a42,2026-10-03T15:59:48+00:00
+UNRATE,Bureau of Labor Statistics,"monthly percent, SA",https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2020-01-01&coed=2025-12-31,UNRATE_2020_2025.csv,bb144a1a217928f0078b739e092e5031c420a6174d2b8024a4941458a1d8eeb9,2026-10-03T15:59:48+00:00
+PERMIT,Census Bureau / HUD,"monthly thousands of units, SAAR",https://fred.stlouisfed.org/graph/fredgraph.csv?id=PERMIT&cosd=2020-01-01&coed=2025-12-31,PERMIT_2020_2025.csv,baf1af5a6f19e98fc06083456a8b28a2b25aa3e168f439e3b06f41e1666c043e,2026-10-03T15:59:48+00:00
+USSTHPI,Federal Housing Finance Agency,"quarterly index, not SA",https://fred.stlouisfed.org/graph/fredgraph.csv?id=USSTHPI&cosd=2020-01-01&coed=2025-12-31,USSTHPI_2020_2025.csv,8961892dbd30822320f5d58eb423306e97c9fd3c1d58f89849004d258576f0ef,2026-10-03T15:59:48+00:00
