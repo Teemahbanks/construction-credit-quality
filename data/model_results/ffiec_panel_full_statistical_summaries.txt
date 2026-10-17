@@ -1,0 +1,150 @@
+
+
+===== nonaccrual_share_construction_interaction_False_weighted_True =====
+                                PanelOLS Estimation Summary                                
+===========================================================================================
+Dep. Variable:     nonaccrual_share_construction   R-squared:                        0.0337
+Estimator:                              PanelOLS   R-squared (Between):              0.1838
+No. Observations:                          11090   R-squared (Within):               0.0366
+Date:                           Sat, Oct 17 2026   R-squared (Overall):              0.1141
+Time:                                   14:59:04   Log-likelihood                 2.563e+04
+Cov. Estimator:                        Clustered                                           
+                                                   F-statistic:                      69.262
+Entities:                                   3138   P-value                           0.0000
+Avg Obs:                                  3.5341   Distribution:                  F(4,7945)
+Min Obs:                                  1.0000                                           
+Max Obs:                                  4.0000   F-statistic (robust):             3.5593
+                                                   P-value                           0.0066
+Time periods:                                  4   Distribution:                  F(4,7945)
+Avg Obs:                                  2772.5                                           
+Min Obs:                                  2745.0                                           
+Max Obs:                                  2805.0                                           
+                                                                                           
+                                       Parameter Estimates                                        
+==================================================================================================
+                                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------------
+Intercept                          0.0217     0.0716     0.3025     0.7622     -0.1188      0.1621
+lag_construction_share_loans       0.0180     0.0156     1.1516     0.2495     -0.0126      0.0486
+lag_problem_share_construction     0.1692     0.0518     3.2686     0.0011      0.0677      0.2707
+lag_log_assets                    -0.0005     0.0041    -0.1334     0.8939     -0.0086      0.0075
+lag_equity_share_assets           -0.0876     0.0402    -2.1766     0.0295     -0.1665     -0.0087
+==================================================================================================
+
+F-test for Poolability: 1.6012
+P-value: 0.0000
+Distribution: F(3140,7945)
+
+Included effects: Entity, Time
+
+===== problem_share_construction_interaction_False_weighted_True =====
+                              PanelOLS Estimation Summary                               
+========================================================================================
+Dep. Variable:     problem_share_construction   R-squared:                        0.0081
+Estimator:                           PanelOLS   R-squared (Between):             -0.3242
+No. Observations:                       11090   R-squared (Within):               0.0042
+Date:                        Sat, Oct 17 2026   R-squared (Overall):             -0.1768
+Time:                                14:59:04   Log-likelihood                 2.338e+04
+Cov. Estimator:                     Clustered                                           
+                                                F-statistic:                      16.231
+Entities:                                3138   P-value                           0.0000
+Avg Obs:                               3.5341   Distribution:                  F(4,7945)
+Min Obs:                               1.0000                                           
+Max Obs:                               4.0000   F-statistic (robust):             1.6699
+                                                P-value                           0.1539
+Time periods:                               4   Distribution:                  F(4,7945)
+Avg Obs:                               2772.5                                           
+Min Obs:                               2745.0                                           
+Max Obs:                               2805.0                                           
+                                                                                        
+                                       Parameter Estimates                                        
+==================================================================================================
+                                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------------
+Intercept                          0.0778     0.0874     0.8906     0.3732     -0.0935      0.2492
+lag_construction_share_loans       0.0161     0.0199     0.8070     0.4197     -0.0230      0.0551
+lag_problem_share_construction     0.0813     0.0494     1.6449     0.1000     -0.0156      0.1782
+lag_log_assets                    -0.0034     0.0050    -0.6825     0.4950     -0.0132      0.0064
+lag_equity_share_assets           -0.1069     0.0496    -2.1538     0.0313     -0.2042     -0.0096
+==================================================================================================
+
+F-test for Poolability: 1.7251
+P-value: 0.0000
+Distribution: F(3140,7945)
+
+Included effects: Entity, Time
+
+===== nonaccrual_share_construction_interaction_True_weighted_True =====
+                                PanelOLS Estimation Summary                                
+===========================================================================================
+Dep. Variable:     nonaccrual_share_construction   R-squared:                        0.0339
+Estimator:                              PanelOLS   R-squared (Between):              0.1577
+No. Observations:                          11090   R-squared (Within):               0.0404
+Date:                           Sat, Oct 17 2026   R-squared (Overall):              0.1022
+Time:                                   14:59:05   Log-likelihood                 2.563e+04
+Cov. Estimator:                        Clustered                                           
+                                                   F-statistic:                      55.741
+Entities:                                   3138   P-value                           0.0000
+Avg Obs:                                  3.5341   Distribution:                  F(5,7944)
+Min Obs:                                  1.0000                                           
+Max Obs:                                  4.0000   F-statistic (robust):             3.0225
+                                                   P-value                           0.0099
+Time periods:                                  4   Distribution:                  F(5,7944)
+Avg Obs:                                  2772.5                                           
+Min Obs:                                  2745.0                                           
+Max Obs:                                  2805.0                                           
+                                                                                           
+                                       Parameter Estimates                                        
+==================================================================================================
+                                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------------
+Intercept                          0.0255     0.0739     0.3448     0.7302     -0.1193      0.1703
+lag_construction_share_loans       0.0205     0.0181     1.1329     0.2573     -0.0150      0.0559
+lag_problem_share_construction     0.1688     0.0515     3.2793     0.0010      0.0679      0.2698
+lag_log_assets                    -0.0008     0.0043    -0.1862     0.8523     -0.0091      0.0075
+lag_equity_share_assets           -0.0852     0.0381    -2.2365     0.0253     -0.1598     -0.0105
+rate_exposure_interaction         -0.0013     0.0032    -0.4141     0.6788     -0.0075      0.0049
+==================================================================================================
+
+F-test for Poolability: 1.5940
+P-value: 0.0000
+Distribution: F(3140,7944)
+
+Included effects: Entity, Time
+
+===== nonaccrual_share_construction_interaction_False_weighted_False =====
+                                PanelOLS Estimation Summary                                
+===========================================================================================
+Dep. Variable:     nonaccrual_share_construction   R-squared:                        0.0301
+Estimator:                              PanelOLS   R-squared (Between):              0.1701
+No. Observations:                          11090   R-squared (Within):               0.0353
+Date:                           Sat, Oct 17 2026   R-squared (Overall):              0.1114
+Time:                                   14:59:05   Log-likelihood                   2.8e+04
+Cov. Estimator:                        Clustered                                           
+                                                   F-statistic:                      61.644
+Entities:                                   3138   P-value                           0.0000
+Avg Obs:                                  3.5341   Distribution:                  F(4,7945)
+Min Obs:                                  1.0000                                           
+Max Obs:                                  4.0000   F-statistic (robust):             2.8825
+                                                   P-value                           0.0213
+Time periods:                                  4   Distribution:                  F(4,7945)
+Avg Obs:                                  2772.5                                           
+Min Obs:                                  2745.0                                           
+Max Obs:                                  2805.0                                           
+                                                                                           
+                                       Parameter Estimates                                        
+==================================================================================================
+                                Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+--------------------------------------------------------------------------------------------------
+Intercept                         -0.0531     0.0465    -1.1413     0.2538     -0.1444      0.0381
+lag_construction_share_loans       0.0139     0.0203     0.6819     0.4953     -0.0260      0.0537
+lag_problem_share_construction     0.1470     0.0534     2.7500     0.0060      0.0422      0.2517
+lag_log_assets                     0.0042     0.0034     1.2639     0.2063     -0.0023      0.0108
+lag_equity_share_assets           -0.0105     0.0284    -0.3701     0.7113     -0.0661      0.0451
+==================================================================================================
+
+F-test for Poolability: 1.8934
+P-value: 0.0000
+Distribution: F(3140,7945)
+
+Included effects: Entity, Time

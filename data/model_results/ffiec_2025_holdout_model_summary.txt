@@ -1,0 +1,28 @@
+                                   WLS Regression Results                                  
+===========================================================================================
+Dep. Variable:     future_problem_to_prior_balance   R-squared:                       0.248
+Model:                                         WLS   Adj. R-squared:                  0.248
+Method:                              Least Squares   F-statistic:                     712.3
+Date:                             Sat, 17 Oct 2026   Prob (F-statistic):               0.00
+Time:                                     14:59:05   Log-Likelihood:                 16284.
+No. Observations:                             8644   AIC:                        -3.256e+04
+Df Residuals:                                 8639   BIC:                        -3.252e+04
+Df Model:                                        4                                         
+Covariance Type:                         nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                              0.0065      0.002      3.965      0.000       0.003       0.010
+lag_construction_share_loans      -0.0080      0.003     -2.933      0.003      -0.013      -0.003
+lag_problem_share_construction     0.5721      0.011     52.250      0.000       0.551       0.594
+lag_log_assets                 -3.661e-05   8.53e-05     -0.429      0.668      -0.000       0.000
+lag_equity_share_assets            0.0022      0.008      0.294      0.769      -0.013       0.017
+==============================================================================
+Omnibus:                    10442.288   Durbin-Watson:                   2.080
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          2636208.026
+Skew:                           6.214   Prob(JB):                         0.00
+Kurtosis:                      87.646   Cond. No.                         994.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

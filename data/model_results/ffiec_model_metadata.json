@@ -1,0 +1,39 @@
+{
+  "python": "3.12.3",
+  "pandas": "3.0.6",
+  "numpy": "2.5.4",
+  "statsmodels": "0.14.6",
+  "linearmodels": "7.1",
+  "years_outcomes": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "n_bank_years": 11090,
+  "n_distinct_banks": 3138,
+  "n_by_outcome_year": {
+    "2022": 2752,
+    "2023": 2788,
+    "2024": 2805,
+    "2025": 2745
+  },
+  "minimum_construction_balance_both_years_thousand_usd": 5000,
+  "predictive_holdout_year": 2025,
+  "holdout_population_rule": "bank files in adjacent years; prior-year construction balance >= $5m; no current-year construction-balance restriction",
+  "holdout_target": "next-year problem balance / prior-year construction balance",
+  "holdout_banks_2025": 2853,
+  "prediction_features": [
+    "lag_construction_share_loans",
+    "lag_problem_share_construction",
+    "lag_log_assets",
+    "lag_equity_share_assets"
+  ],
+  "caveats": [
+    "FFIEC bank-level categories do not identify loan stages",
+    "Only four consecutive annual outcomes; bank clustering alone does not correct common macro shocks",
+    "FE sample conditions on >=$5m outcome-year exposure; forecast cohort does not",
+    "Present-vintage macro series cannot stand in for real-time forecast vintages",
+    "Year FE absorb national-level main effects; interaction only exploratory"
+  ]
+}
