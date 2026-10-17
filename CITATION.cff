@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it using the metadata below."
+type: software
+title: "Construction and Land-Development Credit Quality in U.S. Banks: Reproducible Analysis Package"
+version: 1.0.1
+date-released: 2026-10-17
+license: MIT
+authors:
+  - family-names: Bankole
+    given-names: Fatima Abiodun
+repository-code: "https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME"
+keywords:
+  - construction lending
+  - land development
+  - credit risk
+  - bank Call Reports
+  - model validation
+abstract: "Code, source manifests, and integrity checks for the analysis of U.S. bank construction and land-development credit quality using FFIEC Call Reports (2021-2025) and FDIC BankFind data (2012-2025), with a project-lifecycle research design."
