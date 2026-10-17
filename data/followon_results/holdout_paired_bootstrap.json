@@ -1,0 +1,10 @@
+{
+  "holdout_year": 2025,
+  "n_holdout_banks": 2853,
+  "weighted_mae_model_minus_persistence_percentage_points": 0.0653472857587881,
+  "paired_bank_resample_percentile_2_5": -0.0258436817467231,
+  "paired_bank_resample_percentile_97_5": 0.16543398428100872,
+  "resamples": 1000,
+  "random_seed": 20261003,
+  "caveat": "Conditional on the observed single 2025 year, selected 2024 eligible banks, and trained models; does not account for common national shocks, historical vintages, or future out-of-time years."
+}
